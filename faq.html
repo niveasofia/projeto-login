@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FAQ - Perguntas Frequentes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+      html, body {
+        height: 100%;
+        font-family: 'Nunito', sans-serif;
+      }
+
+      body {
+        background-color: beige;
+        padding: 40px 20px;
+      }
+
+      .faq-container {
+        max-width: 680px;
+        margin: 0 auto;
+      }
+
+      .faq-header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .faq-header img {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 16px;
+      }
+
+      .faq-header h1 {
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: #333;
+        margin-bottom: 6px;
+      }
+
+      .faq-header p {
+        color: #777;
+        font-size: 0.95rem;
+      }
+
+      .accordion-item {
+        border: none;
+        border-radius: 12px !important;
+        margin-bottom: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        overflow: hidden;
+      }
+
+      .accordion-button {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        font-size: 0.97rem;
+        color: #333;
+        background-color: #fff;
+        border-radius: 12px !important;
+        padding: 18px 20px;
+      }
+
+      .accordion-button:not(.collapsed) {
+        color: #0d6efd;
+        background-color: #f0f5ff;
+        box-shadow: none;
+      }
+
+      .accordion-button:focus {
+        box-shadow: none;
+        border-color: transparent;
+      }
+
+      .accordion-body {
+        font-size: 0.92rem;
+        color: #555;
+        background-color: #f0f5ff;
+        line-height: 1.7;
+        padding: 0 20px 18px 20px;
+      }
+
+      .btn-back {
+        right: 10px;
+        bottom: 10px;
+        position: fixed;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="faq-container">
+      <div class="faq-header">
+        <img src="imagens/logo01.png" alt="Logo" onerror="this.style.display='none'">
+        <h1>Perguntas Frequentes</h1>
+        <p>Encontre respostas para as dúvidas mais comuns abaixo.</p>
+      </div>
+
+      <div class="accordion" id="faqAccordion">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+              Como faço para criar uma conta?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Para criar uma conta, clique no botão "Cadastre-se" na tela de login e preencha o formulário com seus dados. Após confirmar seu e-mail, sua conta estará ativa e pronta para uso.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              Esqueci minha senha. O que devo fazer?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Na tela de login, clique em "Esqueci minha senha". Informe o e-mail cadastrado e você receberá um link para redefinir sua senha. Verifique também a caixa de spam caso não encontre o e-mail.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              A opção "Mantenha-me conectado" é segura?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sim, mas recomendamos usar essa opção apenas em dispositivos pessoais e de confiança. Em computadores públicos ou compartilhados, evite marcar essa opção para proteger sua conta.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Meus dados estão seguros?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sim! Utilizamos criptografia para proteger suas informações. Seus dados nunca são compartilhados com terceiros sem o seu consentimento, conforme nossa Política de Privacidade.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              Como entro em contato com o suporte?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Você pode entrar em contato com nossa equipe pelo e-mail <strong>suporte@exemplo.com</strong> ou pelo chat disponível dentro da plataforma. O horário de atendimento é de segunda a sexta, das 9h às 18h.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <a class="btn btn-primary btn-back" href="index.html" role="button">← Voltar ao Login</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
