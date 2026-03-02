@@ -41,9 +41,9 @@ Foi adicionado um botão de acesso rápido ao FAQ na interface principal. Ao ser
 ## Demonstração da Aplicação
 <div align="center">
   <font size="4"><strong>Tela Principal - Login</strong></font> <br>
-  <video src="imagens/tela1.mp4" width="600" controls></video> <br> <br>
+  <img src="imagens/tela1.gif" width="600" controls></img> <br> <br>
   <font size="4"><strong>Tela FAQ</strong></font> <br>
-  <video src="imagens/tela2.mp4" width="600" controls></video>
+  <img src="imagens/tela2.gif" width="600" controls></img>
 </div>
 
 
