@@ -49,13 +49,9 @@ Foi adicionado um botão de acesso rápido ao FAQ na interface principal. Ao ser
 
 ## Ferramentas utilizadas
 
-<img class="mb-4" src="imagens/html.png" alt="" width="50" height="50">
-<img class="mb-4" src="imagens/css3.png" alt="" width="65" height="65">
-<img class="mb-4" src="imagens/bootstrap.png" alt="" width="50" height="50"> &nbsp;
-<img class="mb-4" src="imagens/git.png" alt="" width="50" height="50"> &nbsp;
-<img class="mb-4" src="imagens/gemini.png" alt="" width="50" height="50">
+<img class="mb-4" src="imagens/html.png" alt="" width="50" height="50"> &nbsp; <img class="mb-4" src="imagens/css3.png" alt="" width="65" height="65"> &nbsp; <img class="mb-4" src="imagens/bootstrap.png" alt="" width="50" height="50"> &nbsp;&nbsp; <img class="mb-4" src="imagens/git.png" alt="" width="50" height="50"> &nbsp; <img class="mb-4" src="imagens/gemini.png" alt="" width="50" height="50">
 
 
 ## Autores
-[Nivea Sofia](https://github.com/niveasofia) &nbsp; &nbsp; [João Elias](https://github.com/joaoelias10)<br>
-&nbsp;&nbsp;<img class="mb-4" src="imagens/nivea.jpg" alt="" width="50" height="50"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img class="mb-4" src="imagens/joao.jpg" alt="" width="50" height="50">
+[Nivea Sofia](https://github.com/niveasofia) &nbsp; &nbsp; [João Elias](https://github.com/joaoelias10)<br><br>
+&nbsp;<img class="mb-4" src="imagens/nivea.jpg" alt="" width="60" height="60"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img class="mb-4" src="imagens/joao.jpg" alt="" width="60" height="60">
